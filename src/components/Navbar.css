@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.active {
+    color: #007bff;
+}
